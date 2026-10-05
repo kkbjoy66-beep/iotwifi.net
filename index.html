@@ -284,7 +284,7 @@ body {
             <option value="">-- সিলেক্ট করুন --</option>
             <option value="3 Mbps">3 Mbps (100 টাকা/মাস)</option>
             <option value="6 Mbps">6 Mbps (150 টাকা/মাস)</option>
-            <option value="10 Mbps">১০ Mbps (200 টাকা/মাস)</option>
+            <option value="10 Mbps">10 Mbps (200 টাকা/মাস)</option>
         </select>
 
         <label>কত মাসের জন্য নিবেন?</label>
@@ -479,7 +479,7 @@ body {
 function calculateTotal() {
     var pkg = document.getElementById('mainPkg').value;
     var months = document.getElementById('mainMonths').value;
-    var prices = { '5 Mbps': 200, '7 Mbps': 300, '10 Mbps': 350 };
+    var prices = { '3 Mbps': 100, '6 Mbps': 150, '10 Mbps': 200 };
     var amountShow = document.getElementById('amountShow');
     var showPrice = document.getElementById('showPrice');
     var paymentSection = document.getElementById('paymentSection');
